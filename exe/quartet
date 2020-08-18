@@ -4,6 +4,8 @@
 require 'rainbow/refinement'
 require 'quartet'
 
+using Rainbow
+
 if ARGV.count < 1
   puts 'Error! No app name provided'.red
   exit 11
