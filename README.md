@@ -11,7 +11,7 @@ Run as follows
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/quartet.
+Bug reports and pull requests are welcome on GitHub at https://github.com/guineec/quartet.
 
 ## License
 
