@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'rainbow/refinement'
+require 'quartet'
+
+if ARGV.count < 1
+  puts 'Error! No app name provided'.red
+  exit 11
+end
+
+Quartet.create_app(ARGV[0])
