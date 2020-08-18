@@ -7,7 +7,7 @@ Install by running
 
 ## Usage
 Run as follows
-`quartet <app_name>`
+`$ quartet <app_name>`
 
 ## Contributing
 
