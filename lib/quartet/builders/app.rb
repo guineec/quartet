@@ -9,8 +9,8 @@ require 'sinatra'
 require 'sinatra/activerecord'
 
 # Require files in models and lib directories
-Dir["./models/*.rb"].each {|file| require file }
-Dir[File.join("./lib", "**/*.rb")].each {|file| require file }
+Dir["./models/*.rb"].each {|file| require_relative file }
+Dir[File.join("./lib", "**/*.rb")].each {|file| require_relative file }
 
 get '/' do
   erb :welcome
