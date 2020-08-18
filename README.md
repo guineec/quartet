@@ -7,11 +7,11 @@ Install by running
 
 ## Usage
 Run as follows
-`quartet <app_name>`
+`$ quartet <app_name>`
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/quartet.
+Bug reports and pull requests are welcome on GitHub at https://github.com/guineec/quartet.
 
 ## License
 
