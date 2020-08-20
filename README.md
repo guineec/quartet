@@ -6,8 +6,14 @@ Install by running
 `$ gem install quartet`
 
 ## Usage
-Run as follows
-`$ quartet <app_name>`
+# Generate app
+`$ quartet <app_name>`  
+
+### Serve app
+`$ rake s`
+
+### Development console
+`$ rake c`
 
 ## Contributing
 
