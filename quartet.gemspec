@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Sinatra + ActiveRecord + MySQL + Rake}
   spec.description   = %q{A quick start generator for database backed Sinatra apps}
-  spec.homepage      = "https://github.com/guineec/quartet"
+  spec.homepage      = "https://cguinee.com/quartet"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
