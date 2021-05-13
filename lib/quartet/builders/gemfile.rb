@@ -3,7 +3,7 @@
 module Quartet::Builders
   class Gemfile < Quartet::Builders::Builder
     def initialize
-      @name_override = "Gemfile"
+      @name_override = 'Gemfile'
       @directory = ''
       @file_type = ''
     end
@@ -17,13 +17,13 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/\#{repo_name}" }
 
-# gem "rails"
-
 gem "sinatra", "~> 2.0"
 
 gem "sinatra-activerecord", "~> 2.0"
 
 gem "mysql2", "~> 0.5.3"
+
+gem "puma", "~> 5.3.1"
 
 gem "rake", "~> 13.0"
 
