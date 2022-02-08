@@ -23,6 +23,8 @@ module Quartet::Builders
             .downcase
     end
 
-    def build(app_name); end
+    def build(app_name)
+      puts "No build instructions implemented for #{self.class.to_s}"
+    end
   end
 end
